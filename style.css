@@ -1,0 +1,93 @@
+body {
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 40px;
+    color: yellow;
+}
+
+.profile .photo {
+    border-radius: 50%;
+    margin-bottom: -8px;
+}
+
+.profile .name {
+    margin-bottom: -8px;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-shadow: 0.5px 0.5px 4px #00c4cc;
+    letter-spacing: 2px;
+}
+
+.profile p {
+    font-weight: 400;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: yellow;
+    margin-top: -16px;
+}
+
+.links h3 {
+    text-align: center;
+}
+
+.links .linkedin, .links .github, .links .instagram {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: yellow;
+    margin-bottom: 8px;
+    padding: 3px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 1px #00c4cc;
+}
+
+.links .petlife {
+    display: flex;
+    align-items: center;
+    background-color: yellow;
+    gap: 8px;
+    padding: 4px 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 1px #00c4cc;
+}
+
+.links .linkedin:hover, .links .github:hover, .links .instagram:hover, .links .petlife:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.links .button {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    color: yellow;
+}
+
+@media (max-width: 720px) {
+    body {
+        background-image: url(img/background-mobile.png);
+        background-position: auto;
+    }
+}
