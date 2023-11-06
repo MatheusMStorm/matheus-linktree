@@ -1,7 +1,13 @@
+html {
+    height: 100vh;
+}
+
 body {
     background-image: url(img/background.png);
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
+    height: 100%;
     font-family: 'Roboto Mono', sans-serif;
 }
 
