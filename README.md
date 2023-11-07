@@ -9,4 +9,4 @@ Bem-vindo ao meu Linktree! Esse site é uma árvore de links de acesso às minha
 
 ## Como acessar
 
-<p><a href="matheus-linktree.vercel.app">Clique aqui</a> e confira na íntegra.</p>
+<p><a href="https://matheus-linktree.vercel.app/">Clique aqui</a> e confira na íntegra.</p>
