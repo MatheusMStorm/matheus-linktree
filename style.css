@@ -62,17 +62,18 @@ body {
     box-shadow: 2px 2px 2px 1px #00c4cc;
 }
 
-.links .petlife {
+.links .petlife, .links .calcstorm {
     display: flex;
     align-items: center;
     background-color: yellow;
     gap: 8px;
+    margin-bottom: 8px;
     padding: 4px 20px;
     border-radius: 8px;
     box-shadow: 2px 2px 2px 1px #00c4cc;
 }
 
-.links .linkedin:hover, .links .github:hover, .links .instagram:hover, .links .petlife:hover {
+.links .linkedin:hover, .links .github:hover, .links .instagram:hover, .links .petlife:hover, .links .calcstorm:hover {
     transform: scale(1.1);
     transition: 1s;
 }
